@@ -3,7 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "c069d49e6d7c2f836a8d0c235fa5b217",
+  "assets/AssetManifest.json": "18bac2668af9281cf211681dd287388e",
+"assets/assets/icon/icon.png": "7eccdd9fd78e9715526bce27c85b3f60",
+"assets/assets/in_app_icons/card.png": "d058a551eb4c9e9d035022001ea21a63",
+"assets/assets/in_app_icons/chip.png": "d1c353debd78736636d9ee7b28cb5893",
 "assets/assets/in_app_icons/immunizations.png": "465b8a89f8ecfb7c608dcd0668afbe05",
 "assets/assets/in_app_icons/info.png": "d58da6264b00d10180b179c660f2b8d7",
 "assets/assets/in_app_icons/lab_results.png": "a9fbc7762cc7e895fd08361b1b7bc0a8",
@@ -17,9 +20,31 @@ const RESOURCES = {
 "assets/assets/logos/PF_logo.png": "1cf0bb88e916afed7e1d9b0bc5abc49c",
 "assets/assets/logos/pp1.png": "44ffb9c6e4ab2c9566a26d49cf4b91cc",
 "assets/assets/logos/signupLogo.png": "93446508c1a12ac00014da21b4cd97ef",
-"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "b336756eaef462dbeae45564001880d1",
+"assets/FontManifest.json": "ff49a56e6c3435cfeffa8317cc699e90",
+"assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
+"assets/images/card_provider/american_express.png": "25d34d555cc835f008806163bf889bf9",
+"assets/images/card_provider/diners_club.png": "4288121f0ec6619f2ea56bc7cbb2685a",
+"assets/images/card_provider/discover.png": "50f59532bededb551c5ed62fb1009e69",
+"assets/images/card_provider/elo.png": "523ddd31d37dd0cd6727d7006c328f8e",
+"assets/images/card_provider/jcb.png": "434316972590e7d17d65cd133c018f82",
+"assets/images/card_provider/maestro.png": "6800b310fc27f91d0231ab6556284c5b",
+"assets/images/card_provider/master_card.png": "6ecc2a7c3b3d7e1c30ac7cf7a083d5af",
+"assets/images/card_provider/rupay.png": "3e3018d92a1b51fde09382939664a22d",
+"assets/images/card_provider/visa.png": "b6cf8805abcc16ca2bc2ed401958cce1",
+"assets/NOTICES": "6ca8c04358ba112793e17955484e9b5d",
+"assets/packages/awesome_card/fonts/MavenPro-Bold.ttf": "c3c32db501249a4a864e3359d88469fb",
+"assets/packages/awesome_card/fonts/MavenPro-Medium.ttf": "06dcc8cf4f85c46c6985b69ed0b6b5b6",
+"assets/packages/awesome_card/fonts/MavenPro-Regular.ttf": "ebc7385f9f207b4ad5d0cc4204bf4068",
+"assets/packages/awesome_card/images/card_provider/american_express.png": "25d34d555cc835f008806163bf889bf9",
+"assets/packages/awesome_card/images/card_provider/diners_club.png": "4288121f0ec6619f2ea56bc7cbb2685a",
+"assets/packages/awesome_card/images/card_provider/discover.png": "50f59532bededb551c5ed62fb1009e69",
+"assets/packages/awesome_card/images/card_provider/elo.png": "523ddd31d37dd0cd6727d7006c328f8e",
+"assets/packages/awesome_card/images/card_provider/jcb.png": "434316972590e7d17d65cd133c018f82",
+"assets/packages/awesome_card/images/card_provider/maestro.png": "6800b310fc27f91d0231ab6556284c5b",
+"assets/packages/awesome_card/images/card_provider/master_card.png": "6ecc2a7c3b3d7e1c30ac7cf7a083d5af",
+"assets/packages/awesome_card/images/card_provider/rupay.png": "3e3018d92a1b51fde09382939664a22d",
+"assets/packages/awesome_card/images/card_provider/visa.png": "b6cf8805abcc16ca2bc2ed401958cce1",
+"assets/packages/awesome_card/images/contactless_icon.png": "a092b99c8a1f820436ddf6e540eb632d",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/intl_phone_field/assets/flags/ad.png": "384e9845debe9aca8f8586d9bedcb7e6",
 "assets/packages/intl_phone_field/assets/flags/ae.png": "792efc5eb6c31d780bd34bf4bad69f3f",
@@ -277,21 +302,21 @@ const RESOURCES = {
 "assets/packages/intl_phone_field/assets/flags/za.png": "b28280c6c3eb4624c18b5455d4a1b1ff",
 "assets/packages/intl_phone_field/assets/flags/zm.png": "81cec35b715f227328cad8f314acd797",
 "assets/packages/intl_phone_field/assets/flags/zw.png": "078a3267ea8eabf88b2d43fe4aed5ce5",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
+"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
+"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
+"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
 "favicon.png": "31be18b2c41033ab74cb7d68c527fc8d",
-"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
+"flutter.js": "1cfe996e845b3a8a33f57607e8b09ee4",
 "icons/Icon-192.png": "87bbe2505532fb6f2e03e6491d2eff2d",
 "icons/Icon-512.png": "a0d73bf741e62b8f2315ae309b42d599",
 "icons/Icon-maskable-192.png": "87bbe2505532fb6f2e03e6491d2eff2d",
 "icons/Icon-maskable-512.png": "a0d73bf741e62b8f2315ae309b42d599",
-"index.html": "16c1859421138af700ed4063a3fdd2b5",
-"/": "16c1859421138af700ed4063a3fdd2b5",
-"main.dart.js": "ad19a3ac4222c8af57688b0fbb1cc2e3",
+"index.html": "3c86408500cb756703023e5ef9aa5576",
+"/": "3c86408500cb756703023e5ef9aa5576",
+"main.dart.js": "ce31a1df7f94e014709bab5d3cc8be9b",
 "manifest.json": "93ec9d2cf01bea1266a1c0106537ca5b",
-"version.json": "a2afc2533e36499b05aa94d477b31366"
+"version.json": "e6d50cc68c8197540bb56b7e688c54c9"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -299,7 +324,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -398,9 +422,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
