@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "85490a9011d76c400f66bd8f57541d99",
+  "assets/AssetManifest.json": "2b242e12a83db6fdb88237f4dfddfea2",
 "assets/assets/fonts/Nunito-Black.ttf": "18f25c22e665649aaf09be87bc6f23bb",
 "assets/assets/fonts/Nunito-Bold.ttf": "91019ffb3b1df640e444b34e5a73dfc3",
 "assets/assets/fonts/Nunito-ExtraBold.ttf": "004ce174f09a95594c74016b9a8333e8",
@@ -76,7 +76,10 @@ const RESOURCES = {
 "assets/assets/rocket.gif": "6cac02da641301ffa494cf6e266ae557",
 "assets/FontManifest.json": "6fab77e84702c0d407119880a84742ac",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
-"assets/NOTICES": "83d8d21e9fe800920f704261f382d853",
+"assets/NOTICES": "982e2626fb79a29193c278b40f1a8632",
+"assets/packages/country_state_city/lib/assets/city.json": "5a9057cfd2f210de21a8aae8d93ebee0",
+"assets/packages/country_state_city/lib/assets/country.json": "b68fc9d8b1a459e788a999e28dfabb59",
+"assets/packages/country_state_city/lib/assets/state.json": "74a6cb64cfba2c64ea1cc3c8fd45dd6c",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/flag/res/1x1/ac.svg": "41f2bc1a075c4003696bd3e8030c1dc6",
 "assets/packages/flag/res/1x1/ad.svg": "b2946bd89485be3b8b641a5385634bb3",
@@ -639,9 +642,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "49bd25161ac9fed3f49765efe5d38dfa",
-"/": "49bd25161ac9fed3f49765efe5d38dfa",
-"main.dart.js": "af970484a120f94f1beddba14d5c9116",
+"index.html": "6a21feebc832f52966b43b1268a949e9",
+"/": "6a21feebc832f52966b43b1268a949e9",
+"main.dart.js": "eccc82597f4d7ffe2507cd9c6b55b8c3",
 "manifest.json": "f31d349ba9cc7d6004a97996cecc1c27",
 "version.json": "a97c5308d752c1a7fba9cb997ec81fcb"
 };
