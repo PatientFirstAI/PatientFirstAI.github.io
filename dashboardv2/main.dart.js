@@ -95169,7 +95169,8 @@ break
 case 8:p.pi()
 s=11
 return A.J(p.on(),$async$pc)
-case 11:a.sj(0,!1)
+case 11:p.fx.sj(0,-1)
+a.sj(0,!1)
 q=A.v(["success",!0,"message","Added data"],d,t.K)
 s=1
 break
