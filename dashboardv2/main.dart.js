@@ -117200,8 +117200,12 @@ n.RG.sj(0,p)
 p=J.v(n.go[l],"company")
 if(p==null)p="null"
 n.rx.sj(0,p)
-n.x1.sbF(0,J.v(n.go[l],"strength_value"))
-n.x2.sbF(0,J.v(n.go[l],"strength"))
+p=J.v(n.go[l],"strength_value")
+if(p==null)p=""
+n.x1.sbF(0,p)
+p=J.v(n.go[l],"strength")
+if(p==null)p=""
+n.x2.sbF(0,p)
 p=J.v(n.go[l],"dose")
 if(p==null)p="null"
 n.ry.sj(0,p)
