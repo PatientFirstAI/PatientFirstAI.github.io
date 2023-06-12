@@ -1,6 +1,6 @@
 {
-    "name": "pf_dashboard",
-    "short_name": "pf_dashboard",
+    "name": "pf_admin_dashboard",
+    "short_name": "pf_admin_dashboard",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
