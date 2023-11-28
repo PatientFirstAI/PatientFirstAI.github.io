@@ -45198,14 +45198,14 @@ else A.Fz(B.e4,"Error",B.F4,q.h(p,"message"))
 return A.N(null,r)}})
 return A.O($async$nQ,r)}}
 A.a_i.prototype={
-$1(a){return J.d(J.a7(a,"file_type"),"University Health Form")},
+$1(a){return J.d(J.a7(a,"file_type"),"Health Data Form")},
 $S:14}
 A.a_f.prototype={
 $2(a,b){var s="priority"
 return J.lO(J.a7(a,s),J.a7(b,s))},
 $S:52}
 A.a_g.prototype={
-$1(a){return J.d(J.a7(a,"file_type"),"University Health Form")},
+$1(a){return J.d(J.a7(a,"file_type"),"Health Data Form")},
 $S:14}
 A.a_h.prototype={
 $2(a,b){var s="priority"
@@ -45348,7 +45348,7 @@ case 5:case 3:q.fy.sl(0,!1)
 return A.N(null,r)}})
 return A.O($async$qh,r)}}
 A.acP.prototype={
-$1(a){return J.d(J.a7(a,"file_type"),"University Health Form")},
+$1(a){return J.d(J.a7(a,"file_type"),"Health Data Form")},
 $S:14}
 A.acQ.prototype={
 $1(a){return J.d(J.a7(a,"file_type"),"Tb Form")},
@@ -45445,16 +45445,16 @@ A.a_j.prototype={
 $0(){this.a.c.db.sl(0,this.b+1)},
 $S:0}
 A.a_v.prototype={
-$1(a){return J.d(J.a7(a,"file_type"),"University Health Form")},
+$1(a){return J.d(J.a7(a,"file_type"),"Health Data Form")},
 $S:14}
 A.a_u.prototype={
-$1(a){return J.d(J.a7(a,"file_type"),"University Health Form")},
+$1(a){return J.d(J.a7(a,"file_type"),"Health Data Form")},
 $S:14}
 A.a_t.prototype={
-$1(a){return J.d(J.a7(a,"file_type"),"University Health Form")},
+$1(a){return J.d(J.a7(a,"file_type"),"Health Data Form")},
 $S:14}
 A.a_s.prototype={
-$1(a){return J.d(J.a7(a,"file_type"),"University Health Form")},
+$1(a){return J.d(J.a7(a,"file_type"),"Health Data Form")},
 $S:14}
 A.tO.prototype={
 J(a){var s,r=this,q=null,p=A.cr(25),o=r.c,n=o.ch
@@ -45515,7 +45515,7 @@ $0(){var s,r,q,p,o,n=null,m=this.a.c,l=m.ax
 if(l.gl(l))m=B.i4
 else{l=A.a([],t.p)
 for(s=t.N,r=t.GU,q=0;p=m.dx,q<p.length;q=o){o=q+1
-l.push(new A.b7(B.iD,new A.N_(""+o,J.a7(p[q],"file_url"),J.a7(m.dx[q],"date_uploaded"),A.h(J.a7(m.dx[q],"file_type")),A.h(m.CW.h(0,"first_name")),A.a_(["University Health Form",A.a_(["name","university_health_form.pdf"],s,s),"Tb Form",A.a_(["name","tb_form.pdf"],s,s),"Other",A.a_(["name","other.pdf"],s,s),"Under Age Consent Form",A.a_(["name","consent_form.pdf"],s,s)],s,r),n),n))}m=A.abQ(A.d2(l,B.v,B.F,B.q),n,B.a8,n,B.eN,B.ah)}return m},
+l.push(new A.b7(B.iD,new A.N_(""+o,J.a7(p[q],"file_url"),J.a7(m.dx[q],"date_uploaded"),A.h(J.a7(m.dx[q],"file_type")),A.h(m.CW.h(0,"first_name")),A.a_(["Health Data Form",A.a_(["name","university_health_form.pdf"],s,s),"Tb Form",A.a_(["name","tb_form.pdf"],s,s),"Other",A.a_(["name","other.pdf"],s,s),"Under Age Consent Form",A.a_(["name","consent_form.pdf"],s,s)],s,r),n),n))}m=A.abQ(A.d2(l,B.v,B.F,B.q),n,B.a8,n,B.eN,B.ah)}return m},
 $S:57}
 A.ad3.prototype={
 $0(){var s=null,r=this.a,q=r.c.ax,p=this.b
@@ -45551,7 +45551,7 @@ q=A.abQ(A.d2(o,B.v,B.F,B.q),r,B.a8,r,B.eN,B.ah)}return q},
 $S:57}
 A.acX.prototype={
 $0(){var s="vaccination_name",r=this.b,q=this.a.c,p=q.fy,o=t.N,n=t.K
-return new A.qM(""+(r+1),A.h(J.a7(q.k2[r],s)),A.h(J.a7(q.k2[r],"value")),A.h(J.a7(q.k2[r],"is_compliant")),A.h(J.a7(q.k2[r],"notes")),p.gl(p),q.VJ(A.h(J.a7(q.k2[r],s))),J.a7(q.k2[r],"field_type"),q.W2(A.h(J.a7(q.k2[r],s))),A.a_(["University Health Form",A.a_(["name","university_health_form.pdf"],o,o),"Tb Form",A.a_(["name","tb_form.pdf"],o,o),"Other",A.a_(["name","other.pdf"],o,o),"Under Age Consent Form",A.a_(["name","consent_form.pdf"],o,o)],o,t.GU),A.a_(["false",A.a_(["text","Not Compliant","bg",$.qj()],o,n),"true",A.a_(["text","Compliant","bg",$.aoX()],o,n),"pending",A.a_(["text","Not Compliant","bg",$.qj()],o,n)],o,t.nf),null)},
+return new A.qM(""+(r+1),A.h(J.a7(q.k2[r],s)),A.h(J.a7(q.k2[r],"value")),A.h(J.a7(q.k2[r],"is_compliant")),A.h(J.a7(q.k2[r],"notes")),p.gl(p),q.VJ(A.h(J.a7(q.k2[r],s))),J.a7(q.k2[r],"field_type"),q.W2(A.h(J.a7(q.k2[r],s))),A.a_(["Health Data Form",A.a_(["name","university_health_form.pdf"],o,o),"Tb Form",A.a_(["name","tb_form.pdf"],o,o),"Other",A.a_(["name","other.pdf"],o,o),"Under Age Consent Form",A.a_(["name","consent_form.pdf"],o,o)],o,t.GU),A.a_(["false",A.a_(["text","Not Compliant","bg",$.qj()],o,n),"true",A.a_(["text","Compliant","bg",$.aoX()],o,n),"pending",A.a_(["text","Not Compliant","bg",$.qj()],o,n)],o,t.nf),null)},
 $S:343}
 A.JM.prototype={
 J(a){return new A.b7(B.E5,A.cH(A.a([new A.xh(B.Ff,B.i,this.c,this.d,0,new A.cu(A.cr(15),B.zM),B.z8,null)],t.p),B.v,B.F,B.q),null)}}
